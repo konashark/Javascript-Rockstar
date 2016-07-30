@@ -12,7 +12,6 @@ function initApp () {
             autosize(e);
         }
     });
-
     $('span').on('mouseleave', function() {
         $(this).removeClass('pulse');
         var e = $(this).find('.description');
